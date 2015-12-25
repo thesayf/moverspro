@@ -36,27 +36,19 @@
             <ul class="nav navbar-nav navbar-right am-user-nav">
               <li class="dropdown"><a href="" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="assets/img/avatar.jpg"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
                 <ul role="menu" class="dropdown-menu">
-                  <li><a href="#"> <span class="icon s7-user"></span>My profile</a></li>
-                  <li><a href="#"> <span class="icon s7-safe"></span>Payment Settings</a></li>
+                  <li><a href="#/profilepage"> <span class="icon s7-user"></span>My profile</a></li>
+                  <li><a href="#/paymentdetails"> <span class="icon s7-safe"></span>Payment Settings</a></li>
                   <li><a href="#"> <span class="icon s7-power"></span>Sign Out</a></li>
                 </ul>
               </li>
             </ul>
               <!--Settings dropdowns end here-->
-        <ul class="nav navbar-nav am-nav-right">
-              <li><a href="#/">Home</a></li>
-              <li class="dropdown"><a href="" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Settings <span class="angle-down s7-angle-down"></span></a>
-                <ul role="menu" class="dropdown-menu">
-                  <li><a href="#/addressbook">Address Book</a></li>
-                  <li><a href="#">Inventory Book</a></li>
-                  <li><a href="#">Database Management</a></li>
-                  <li><a href="#">Seo Improvement</a></li>
-                </ul>
-              </li>
-            </ul>      
-              
+        
               <!--right nav Dropdowns start here-->
             <ul class="nav navbar-nav navbar-right am-icons-nav">
+                <li class="dropdown"><a href="#/addressbook" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><span class="icon s7-notebook"></span></a>
+                
+              </li>
               <li class="dropdown"><a href="" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><span class="icon s7-comment"></span></a>
                 <ul class="dropdown-menu am-messages">
                   <li>
@@ -81,7 +73,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="footer"> <a href="#">View all messages</a></div>
+                    <div class="footer"> <a href="#/viewallmessages">View all messages</a></div>
                   </li>
                 </ul>
               </li>
@@ -97,6 +89,8 @@
         <div class="content">
           <div class="am-logo"></div>
           <ul class="sidebar-elements">
+            <li class="parent"><a href="#/"><i class="icon s7-home"></i><span>Home</span></a>
+            </li>
             <li class="parent"><a href="#/instantlog"><i class="icon s7-gleam"></i><span>Instant Booking</span></a>
             </li>
             <li class="parent"><a href="#/scheduledbooking"><i class="icon s7-date"></i><span>Schedule a Booking </span></a>
@@ -149,6 +143,74 @@
         </div>
       </nav>
     <!--Right Sidebar ends here-->
+        <div id="form-bp1" tabindex="-1" role="dialog" class="modal fade colored-header">
+      <div class="modal-dialog custom-width">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-hidden="true" class="close md-close"><i class="icon s7-close"></i></button>
+            <h3 class="modal-title">Create New Address</h3>
+          </div>
+          <div class="modal-body form">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="name " placeholder="Luton Branch" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Second Name</label>
+              <input type="address" placeholder="3 Lombard Road" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Company Information</label>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-6">
+                        <select class="form-control">
+                          <option>Department</option>
+                          <option>Operations</option>
+                          <option>Sales</option>
+                          <option>Promotions</option>
+                          <option>Marketing</option>
+                        </select>
+                      </div>
+                <div class="col-sm-6">
+                        <select class="form-control">
+                          <option>Position</option>
+                          <option>Account Manager</option>
+                          <option>Manager</option>
+                          <option>Head Of Department</option>
+                          <option>Admin</option>
+                        </select>
+                      </div>
+              </div>
+              <br>
+            <div class="form-group">
+              <label>User Name</label>
+              <input type="address" placeholder="Lisa" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="address" placeholder="Lisa" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Contact Number</label>
+              <input type="address" placeholder="07555555555" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Contact Email</label>
+              <input type="address" placeholder="email@email.co.uk" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Card Details</label>
+              <button data-toggle="modal" data-target="#form-bp2" type="button" class="btn btn-space btn-primary pull-right">Add Card Details</button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-default md-close">Cancel</button>
+            <button type="button" data-dismiss="modal" class="btn btn-primary md-close">Proceed</button>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
       <!--wrapper ends here-->
     <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>

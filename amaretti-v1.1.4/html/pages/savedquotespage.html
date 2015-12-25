@@ -1,108 +1,106 @@
-        
- <div class="am-content">
+        <!--Main contents starts here-->
+      <div class="am-content">
         <div class="main-content">
-          <div class="row">
-            <div class="col-md-7">
-                <button data-toggle="modal" data-target="#md-default" type="button" class="btn btn-space btn-primary col-md-12 col-sm-12 col-xs-12">Logistics job</button>
-              <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
-            </div>
-            <div class="col-md-5">
-              <div class="row">
-                <div class="col-md-6">
-                            <div class="widget widget-tile">
-                              <div class="data-info">
-                                <div data-toggle="counter" data-end="18.6" data-decimals="1" data-suffix="%" class="value">0%</div>
-                                <div class="desc">From and to</div>
-                              </div>
-                              <div class="icon"><span class="s7-map-marker"></span></div>
-                            </div>
-                </div>
-                <div class="col-md-6">
-                            <div class="widget widget-tile">
-                              <div class="data-info">
-                                <div data-toggle="counter" data-end="33" data-suffix="%" class="value">0%</div>
-                                <div class="desc">Date and time</div>
-                              </div>
-                              <div class="icon"><span class="s7-date"></span></div>
-                            </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                            <div class="widget widget-tile">
-                              <div class="data-info">
-                                <div data-toggle="counter" data-end="156" class="value">0</div>
-                                <div class="desc">Vans</div>
-                              </div>
-                              <div class="icon"><span class="s7-rocket"></span></div>
-                            </div>
-                </div>
-                <div class="col-md-6">
-                            <div class="widget widget-tile">
-                              <div class="data-info">
-                                <div data-toggle="counter" data-decimals="1" data-end="7.5" data-suffix="K" class="value">0</div>
-                                <div class="desc">Followers</div>
-                              </div>
-                              <div class="icon"><span class="s7-add-user"></span></div>
-                            </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="widget widget-tile widget-tile-wide">
-                    <div class="tile-info">
-                      <div class="icon"><span class="s7-credit"></span></div>
-                      <div class="data-info">
-                        <div class="title"><strong>Price</strong></div>
-                        <div class="desc">Monthly sales number</div>
-                      </div>
+          <!--+general-chart("classes", "title", "height", "id", "counter value", "counter desc", tools enabled (use true or false))-->
+        <div class="row">
+        <div class="col-sm-12">
+              <div class="panel panel-default">
+                <div class="btn-group btn-hspace pull-right">
+                      <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Filter By Status <span class="caret"></span></button>
+                      <ul role="menu" class="dropdown-menu">
+                        <li><a href="#">Booked</a></li>
+                        <li><a href="#">Saved</a></li>
+                      </ul>
                     </div>
-                    <div class="tile-value"><span data-toggle="counter" data-decimals="2" data-end="28458" data-prefix="$">$0</span></div>
+                  <div class="btn-group btn-hspace pull-right">
+                      <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Filter Job Type <span class="caret"></span></button>
+                      <ul role="menu" class="dropdown-menu">
+                        <li><a href="#">Logistic</a></li>
+                      </ul>
+                    </div>
+                <div class="panel-heading"><span class="panel-title">Saved Quotes</span></div>
+                <div class="panel-body">    
+                  <div class="spacer">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Job Name</th>
+                          <th class="text-center">Job type</th>
+                          <th class="text-center">Status</th>
+                            <th class="text-center">Edit Job</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Default</td>
+                          <td class="text-center">Default</td>
+                          <td class="text-center">Default</td>
+                            <td class="text-center">Edit</td>
+                        </tr>
+                        <tr>
+                          <td>Primary</td>
+                          <td class="text-center">Default</td>
+                          <td class="text-center">Default</td>
+                            <td class="text-center">Edit</td>
+                        </tr>
+                        <tr>
+                          <td>Success</td>
+                          <td class="text-center">Default</td>
+                          <td class="text-center">Default</td>
+                            <td class="text-center">Edit</td>
+                        </tr>
+                        <tr>
+                          <td>Info</td>
+                          <td class="text-center">Default</td>
+                          <td class="text-center">Default</td>
+                            <td class="text-center">Edit</td>
+                        </tr>
+                        <tr>
+                          <td>Warning</td>
+                          <td class="text-center">Default</td>
+                          <td class="text-center">Default</td>
+                            <td class="text-center">Edit</td>
+                        </tr>
+                        <tr>
+                          <td>Danger</td>
+                          <td class="text-center">Default</td>
+                          <td class="text-center">Default</td>
+                            <td class="text-center">Edit</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
-                
-                <div class="row">
-                <div class="col-md-12">
-                  <div class="widget widget-tile widget-tile-wide">
-                    <div class="tile-info">
-                      <button class="btn btn-success btn-space btn-hspace col-md-3 col-xs-12">Summary</button>
-                        <button class="btn btn-success btn-space btn-hspace col-md-3 col-xs-12">Save</button>
-                        <button class="btn btn-danger btn-space btn-hspace col-md-4 col-xs-12">Book</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-                                
             </div>
-          </div>
-        
           
         </div>
-      </div>
+            </div>
+        </div>
         <!--Main contents ends here-->
 
-    <!--job modal-->
-     <div id="md-default" tabindex="-1" role="dialog" class="modal fade">
+<!--job modal-->
+    <div id="md-default" tabindex="-1" role="dialog" class="modal fade">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button " data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+              <div class="btn-group btn-group-justified"><a href="#" class="btn btn-alt4">Fixed</a><a href="#" class="btn btn-alt4 btn-shade2 btn-rad">Hourly</a></div>
           </div>
           <div class="modal-body">
             <div class="text-center">
             <div class="row">
-              <input type="email" placeholder="Enter Job Name" class="form-control col-md-12">
+              <input type="email" placeholder="Enter email" class="form-control col-md-12">
             </div>
                 <br>
             <div class="row">
-                <button data-toggle="modal" data-target="#inv-fullWidth" type="button" class="btn btn-space btn-primary col-md-12 col-xs-12">Choose Van</button>
-            </div>
-            <div class="row">
-                <button data-toggle="modal" data-target="#md-colored" type="button" class="btn btn-space btn-primary col-md-12 col-xs-12">Add Porters</button>
+                <button data-toggle="modal" data-target="#inv-fullWidth" type="button" class="btn btn-space btn-primary col-md-12 col-xs-12">Add Items To Delivery</button>
             </div>
             <div class="row">
               <button data-toggle="modal" data-target="#form-bp1" type="button" class="btn btn-space btn-primary col-md-12 col-xs-12">Plan Route</button>
+            </div>
+            <div class="row">
+              <button data-toggle="modal" data-target="#form-bp2" type="button" class="btn btn-space btn-primary col-md-12 col-xs-12">Dates and Times</button>
             </div>
             </div>
           </div>
@@ -114,20 +112,26 @@
       </div>
     </div>
     
-<!-- the start of the van choice modal -->
-    
-    <div id="inv-fullWidth" tabindex="-1" role="dialog" class="modal fade">
+<!-- Inventory Modal starts here-->
+
+<div id="inv-fullWidth" tabindex="-1" role="dialog" class="modal fade">
       <div class="modal-dialog full-width">
         <div class="modal-content">
           <div class="modal-header">
               <!--cancel button starts here-->
             <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+              <br>
               <!--cancel button ends here-->
+            <div class="input-group col-md-3 col-sm-4 col-xs-6 pull-right">
+          	<input type="text" ng-model="data.searchInput" ng-change="changeActiveRoom('All Items')" class="form-control" placeholder="Search">
+          	<span class="input-group-addon hidden-xs" id="basic-addon2">Search</span>
+        </div>
+              <button type="button" data-dismiss="modal" class="btn btn-primary pull-right">New Item</button>
           </div>
           <div class="modal-body">
-             <div class="panel-body text-center">
-                  <div class="spacer xs-mt-15 xs-mb-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15"></div>
-                </div>  
+              <br>
+             <div class="btn-group btn-group-justified"><a href="#" class="btn btn-alt4 btn-rad">Boxes pallets & crates</a><a href="#" class="btn btn-alt4">Electronics</a><a href="#" class="btn btn-alt4 btn-shade2 btn-rad">Furniture</a><a href="#" class="btn btn-alt4 btn-rad">Misc</a></div> 
+            
           </div>
           <div class="modal-footer">
             <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
@@ -136,34 +140,8 @@
         </div>
       </div>
     </div>
-    
-    <!-- end of van choice modal -->
 
- <!--start of the add porter modal-->
-    <div id="md-colored" tabindex="-1" role="dialog" class="modal fade colored-header">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
-            <h3 class="modal-title">Custom Colored Header</h3>
-          </div>
-          <div class="modal-body">
-            <div class="text-center">
-                                <div class="spacer xs-mt-15 xs-mb-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15"><img src="assets/img/140x140.png" class="img-thumbnail xs-mr-15">
-
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
-            <button type="button" data-dismiss="modal" class="btn btn-primary">Proceed</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-    <!--end of add porter modal-->
-    
+<!-- Inventory Modal Ends Here-->
     
 <!--job details modal ends here-->
     
@@ -185,11 +163,11 @@
                             <button tabindex="-1" type="button" class="btn btn-primary">Find Address</button>
                             <button tabindex="-1" data-toggle="dropdown" type="button" class="btn btn-primary btn-shade1 dropdown-toggle"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
                             <ul role="menu" class="dropdown-menu pull-right">
+                              <li><a href="#">2 dairy farm place</a></li>
                               <li><a href="#">8 Lombard Road</a></li>
-                              <li><a href="#">2 Dairy Farm Place</a></li>
-                              <li><a href="#">8 Sharpland</a></li>
+                              <li><a href="#">Something else here</a></li>
                               <li class="divider"></li>
-                              <li><a href="#">More Saved Addresses</a></li>
+                              <li><a href="#">More saved addresses</a></li>
                             </ul>
                           </div>
                         </div>
@@ -200,9 +178,9 @@
                       <button type="button" class="btn btn-default">Distance</button>
                       <button type="button" data-toggle="dropdown" class="btn btn-success dropdown-toggle"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
                       <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">10 Meters</a></li>
-                        <li><a href="#">20 Meters</a></li>
-                        <li><a href="#">30 Meters</a></li>
+                        <li><a href="#">10 meters</a></li>
+                        <li><a href="#">20 meters</a></li>
+                        <li><a href="#">30 meters</a></li>
                       </ul>
                     </div>
                 <!-- End of the floors-->
@@ -233,7 +211,7 @@
                             <ul role="menu" class="dropdown-menu pull-right">
                               <li><a href="#">2 dairy farm place</a></li>
                               <li><a href="#">8 Lombard Road</a></li>
-                              <li><a href="#">8 Sharpland</a></li>
+                              <li><a href="#">Something else here</a></li>
                               <li class="divider"></li>
                               <li><a href="#">More saved addresses</a></li>
                             </ul>
@@ -246,9 +224,9 @@
                       <button type="button" class="btn btn-default">Distance</button>
                       <button type="button" data-toggle="dropdown" class="btn btn-success dropdown-toggle"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
                       <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">10 Meters</a></li>
-                        <li><a href="#">20 Meters</a></li>
-                        <li><a href="#">30 Meters</a></li>
+                        <li><a href="#">10 meters</a></li>
+                        <li><a href="#">20 meters</a></li>
+                        <li><a href="#">30 meters</a></li>
                       </ul>
                     </div>
                 <!-- End of the floors-->
@@ -302,6 +280,22 @@
                       </div>
             </div>
               <br>
+              <div class="form-group">
+                      <label class="col-sm-4 control-label">Basic Select</label>
+                      <div class="btn-group btn-hspace">
+                      <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Repeat<span class="caret"></span></button>
+                      <ul role="menu" class="dropdown-menu">
+                        <li><a href="#">Never</a></li>
+                        <li><a href="#">Every Day</a></li>
+                        <li><a href="#">Every Week</a></li>
+                          <li><a href="#">Every 2 Weeks</a></li>
+                          <li><a href="#">Every Month</a></li>
+                          <li><a href="#">Every Year</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Custom</a></li>
+                      </ul>
+                    </div>
+              </div>
             <br>
               <br>
               <br>
@@ -319,4 +313,4 @@
           </div>
         </div>
       </div>
-    </div>
+</div>
